@@ -1,4 +1,5 @@
 const express = require('express');
+console.log('PASSWORD ROUTES LOADED');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
