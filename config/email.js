@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 
 const sendOTP = async (toEmail, otp) => {
   await transporter.sendMail({
-    from: `"EcoComplaints Portal" <${process.env.EMAIL_USER}>`,
+    from: `"EcoComplaints Portal" <ecocompliant8@gmail.com>`,
     to: toEmail,
     subject: 'Your Password Reset OTP - EcoComplaints',
     html: `
